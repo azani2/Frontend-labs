@@ -1,0 +1,16 @@
+#result {
+    font-weight: bold;
+}
+.btn {
+    padding: 5px;
+    margin: 6px;
+    font-weight: bold;
+    background: green;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+}
+.btn:hover {
+    padding: 7px;
+    border-color: skyblue;
+}

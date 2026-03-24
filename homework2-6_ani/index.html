@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Homework</title>
+    </head>
+    <body>
+        <h2>Vending machine</h2>
+        <h3>Snacks</h3>
+        <ul>
+            <li>Deserts</li>
+            <li>Chips</li>
+            <li>Candy</li>
+        </ul>
+        <h3>Drinks</h3>
+        <ul>
+            <li>Cola</li>
+            <li>Pepsi</li>
+            <li>Fanta</li>
+        </ul>
+        <form>
+            <label>Product:</label>
+            <br>
+            <input type="text" id="productName" placeholder="product name">
+            <br>
+            <label>Amount:</label>
+            <br>
+            <input type="number" id="wantedAmount">
+            <br>
+            <button type="button" onclick="vendingMachine.snacks.buySnacks(document.getElementById('productName').value, document.getElementById('wantedAmount').value)">Buy Snacks</button>
+            <br>
+            <button type="button" onclick="vendingMachine.drinks.buyDrinks(document.getElementById('productName').value, document.getElementById('wantedAmount').value)">Buy Drinks</button>
+        </form>
+        <p id = "result"></p>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>

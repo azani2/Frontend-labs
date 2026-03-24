@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #01190f;
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+.header_container {
+    width: 85%;
+    height: 185px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+.logo {
+    width: 49%;
+    display: inline-block;
+}
+.logo img {
+    height: 185px;
+    width: auto;
+}
+.navigation {
+    width: 50%;
+    height: 100%;
+    margin-top:  45px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: right;
+}
+.navigation ul li {
+    margin: 0;
+    padding: 20px;
+    display: inline-block;
+}
+.navigation ul li:hover {
+    background: #fff;
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
+.navigation ul li a {
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 1s;
+}
+.navigation ul li:hover a{
+    color: #000;
+    text-decoration: none;
+}
+.banner_container {
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.products_container {
+    width: 100%;
+    display: block;
+}
+.heading {
+    width: 60%;
+    padding: 40px;
+    margin: 0 auto;
+}
+.heading h4 {
+    color: #ffffff;
+    text-align: center;
+}
+.products {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.products .item {
+    padding: 10px;
+    width: 22%;
+    display: inline-block;
+}
+.product {
+    border: solid 1px;
+    border-color: #ffffff;
+}
+.product img {
+    width: 100%;
+}
+.product h5 {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.product h5 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.product form {
+    padding-bottom: 15px;
+    text-align: center;
+}
+.product form input {
+    background-color:  #01190f;
+    border: solid 1px #fff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.product form input:hover {
+    background-color: #ffffff;
+    color: #01190f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.info_container {
+    width: 100%;
+    display: block;
+}
+.separator {
+    width: 60%;
+    padding: 40px;
+    margin: 0 auto;
+}
+.corsair {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.crs_logo {
+    display: inline-block;
+    width: 44%;
+    height: auto;
+}
+.crs_logo img {
+    border: solid 1px #ffffff;
+}
+.crs_info {
+    display: inline-block;
+    width: 55%;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: justify;
+    vertical-align: top;
+    margin-top: 25px;
+}
+.crs_info h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.crs_info p {
+    text-indent: 25px;
+}
+.computers {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.comp_info {
+    width: 55%;
+    display: inline-block;
+    color: #ffffff;
+    text-align: justify;
+    vertical-align: top;
+}
+.comp_info h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.comp_info p {
+    text-indent: 25px;
+    margin-inline-start: 0;
+    margin-inline-end: 30px;
+}
+.comp_img {
+    display: inline-block;
+    width: 44%;
+}
+.comp_img img {
+    border: solid 1px #fff;
+    width: 100%;
+    height: auto;
+}
+.form_container {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.form_heading {
+    color: #ffffff;
+    display: block;
+}
+.form_heading h4{
+    margin-block-start: 0;
+}
+.forms {
+     width: 50%;
+     display: block;
+     margin: 0 auto;
+}
+.forms input {
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+.forms textarea {
+    width: 100%;
+    display: block;
+}
+#send_button {
+    margin: 15px auto;
+    padding: 0 35px;
+    color: #01190f;
+    background-color: #f2f4f4;
+    border: solid 1px #fff;
+    width: auto;
+    font-size: 15px;
+}
+#send_button:hover {
+    color: #fff;
+    background-color: #01190f;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer_container {
+    width: 100%;
+    height: 85px;
+}
+.declaration {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 37.5px 0;
+}
+#advac_link {
+    color: #fff;
+    text-decoration: none;
+}
+#advac_link:hover {
+    color: lightblue;
+    transition: 0.5s;
+}
