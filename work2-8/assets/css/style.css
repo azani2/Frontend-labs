@@ -1,0 +1,81 @@
+body {
+	background: linear-gradient(90deg, rgba(224,255,0,1) 20%, rgba(255,0,0,1) 85%);
+	font-family: Arial;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-bottom: 150px;
+}
+
+.content form {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.content form input {
+	width: 50%;
+	border: none;
+	padding: 10px;
+	font-weight: bold;
+	color: gray;
+	margin-right: 10px;
+}
+
+form button:focus,
+form input:focus {
+	outline: none;
+}
+
+.content form button {
+	background: #49cc49;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 20px;
+	border: none;
+}
+
+.todo-list {
+	width: 40%;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.todo-list li {
+	width: 200px;
+	background: #fff;
+	color: gray;
+	font-weight: bold;
+	display: inline;
+	padding: 10px;
+}
+
+.todo-list button {
+	color: #fff;
+	font-weight: bold;
+	padding: 10px;
+	display: inline-block;
+	width: 50px;
+	border: none;
+}
+
+.done-btn {
+	background: #49cc49;
+}
+
+.del-btn {
+	background: #e61212;
+}
+
+.todo {
+	display: flex;
+	margin: 0 auto;
+	width: 50%;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+.pink {
+    background-color: pink;
+    font-family: 'Impact';
+}
+.ui-widget-header {
+    background-color: rgb(180, 245, 137);
+}
+.hide {
+    display: none;
+}
+.progress-label {
+    position: absolute;
+    left: 45%;
+}

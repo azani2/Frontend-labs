@@ -1,0 +1,12 @@
+let array = [ 'Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'easily', 'the', 'first', 'time,', 'it', 'is', 'about', 'what', 'you', 'can', 'figure', 'out.', '-2015,', 'Chris', 'Pine,', 'Learn', 'JavaScript'];
+console.log(array.length);
+array.pop();
+console.log(array.length);
+array.push('to', 'Program');
+array.splice(7, 1, "right");
+//console.log(array.join(" "));
+array.shift();
+array.unshift('Programming');
+array.splice(6, 5, 'know,');
+console.log(array.join(' '));
+document.write(array.join(" "));

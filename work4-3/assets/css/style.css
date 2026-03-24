@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+#game-info {
+    width: 640px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+h1 {
+    text-align: center;
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+}

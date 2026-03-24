@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(0,206,251,1) 20%, rgba(9,9,121,1) 100%);
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 140px;
+}
+
+.content form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content form input {
+    width: 50%;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+.content form input:focus {
+    outline: none;
+}
+
+.content form button {
+    background: #49cc49;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 7px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.todo-list {
+    width: 40%;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.todo-list li {
+    width: 273px;
+    background: white;
+    color: gray;
+    font-weight: bold;
+    display: inline;
+    padding: 10px;
+    
+}
+
+.todo-list button {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    width: 50px;
+    border: none;
+}
+
+.done-btn {
+    background: #49cc49;
+}
+
+.del-btn {
+    background: #ff6f47;
+}
+
+.todo {
+    display: flex;
+    margin: 0 auto; 
+    width: 50%;
+    margin-bottom: 17px;
+}
+
+body button:hover {
+    color: #0ff;
+    transition: 0.5s;
+}
+
+.completed {
+    opacity: 0.5;
+}

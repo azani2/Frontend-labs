@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(207, 194, 157);
+}
+#heading1 {
+    display: none;
+}
+
+#rnd-photo {
+    width: 200px;
+    display: block;
+}
+#santa {
+    border-radius: 10px;
+}
+button {
+    border: 1px solid white;
+    background-color: rgb(182, 182, 255);
+    color: rgb(23, 6, 51);
+    font-family: verdana;
+    border-radius: 15px;
+    font-weight:450;
+}
+.slide-p {
+    padding: 20px 5px;
+    background: cyan;
+    margin: 10px;
+    border-radius: 15px;
+}
+form {
+    display: none;
+}
+.h-text {
+    display: none;
+}
+.not-important {
+    display: none;
+    font-weight: bold;
+}
+
+.didi {
+    background-color: cyan;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    float: left;
+    border-radius: 10px;
+}
+
+#beer {
+    border-radius: 15px;
+    position: relative;
+}
+#red-block {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: darksalmon;
+}
+#sorry-txt {
+    display: none;
+}
+#red-block2 {
+    width: 70px;
+    height: 70px;
+    background-color: darksalmon;
+}
